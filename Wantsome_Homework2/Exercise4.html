@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>My feedback form</h1>
+        <ul>
+        <form>
+               <li> <label for="nume">Name</label>
+                <input type="text" name="nume" required><br> </li>
+
+                <li> <label for="email_address">Email:</label>
+                    <input type="email" name="email_address"><br></li>
+
+                <li> <label for="password">Password:</label>
+                    <input type="text" name="password" > <br></li>
+                
+                <li> <label>Please check all the emotions that apply to you:</label><br>
+                    
+                    <li><input type="checkbox" name="emotions" checked>Angry </li>
+                    <li><input type="checkbox" name="emotions"> Sad </li>
+                    <li><input type="checkbox" name="emotions"> Happy </li>
+                    <li><input type="checkbox" name="emotions"> Ambivalent </li>
+                
+                </li>
+
+                <li>
+                    <label>How satisfied were you with our service?</label>
+
+                    <li> <input type="radio" name="satisfaction" checked>Very satisfied</li>
+                    <li> <input type="radio" name="satisfaction">Satisfied</li>
+                    <li> <input type="radio" name="satisfaction">Didn't care</li>
+                    <li> <input type="radio" name="satisfaction">Dissatisfied</li>
+                    <li> <input type="radio" name="satisfaction">Very dissatisfied</li>
+
+                </li>
+
+                <li>
+                    <label for="comments">Further comments:</label>
+                        <textarea name="comments" maxlength="500"></textarea>
+                </li>
+
+                <li>
+                    <label name="myFile">Bio Photo:</label>
+                        <input type="file" id="myFile">
+                </li>
+
+                <li>
+                        <label name="location">Location visited</label>
+                        <select value="Location" required aria-placeholder="Select location">
+                                <option value="Goa">Goa</option> <br>
+                                <option value="Israel">Israel</option> <br>
+                                <option value="Philipines">Philipines</option> <br>
+                        </select>
+                    </li>
+                <li> 
+                    <button type="submit" value="Submit">Submit</button>
+                </li>
+        </form>
+        </ul>
+    </body>
+</html>
