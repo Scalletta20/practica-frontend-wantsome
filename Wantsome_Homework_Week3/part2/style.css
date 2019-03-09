@@ -14,11 +14,11 @@ ul li:last-child{
     border-bottom: 5px dashed blue;
 }
 
-ul li + a:nth-child(3){
-    color: red;
+li:nth-child(3) > a, li:nth-child(5) > a {
+    color:red;
 }
 
-li + a:hover:nth-of-type(5){
+li > a:hover:nth-of-type(5){
     color: grey;
 }
 
