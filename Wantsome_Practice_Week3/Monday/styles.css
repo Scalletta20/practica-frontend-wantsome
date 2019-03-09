@@ -1,0 +1,27 @@
+.links{
+    color:red;
+}
+#firstColor{
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    color:brown;
+}
+
+div h1:first-child{
+    color: rgb(145, 13, 94);
+}
+
+.links :last-child{
+    color: brown;
+}
+
+#select > p{
+    color: yellow;
+}
+
+#select h2+p{
+    color: blueviolet;
+}
