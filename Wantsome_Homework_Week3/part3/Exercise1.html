@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Exercise1.css">
+    </head>
+    <body>
+
+        <form class="formStyle">
+            <label for="nume">Nume*</label>
+                <input type="text" name="nume" required placeholder="Nume" value="Popescu">  <br>
+    
+            <label for="prenume">Prenume*</label>
+                <input type="text" name="prenume" required placeholder="Prenume" value="Alex"> <br>
+
+            <label for="name">Sex</label> <br>
+                <input type="checkbox" name="M" checked>M <br>
+                <input type="checkbox" name="F" >F <br>
+
+            <label for="varsta">Varsta</label>
+                <input type="number" name="varsta" min="18" max="85"> <br>
+
+            Tara <select value="Tara">
+                <option value="Romania">Romania</option> <br>
+                <option value="Israel">Israel</option> <br>
+                <option value="Italia">Italia</option> <br>
+            </select> <br>
+
+            Oras <select value="Oras">
+                <option value="Iasi" required>Iasi</option> <br>
+                <option value="Galati">Galati</option> <br>
+                <option value="Suceava">Suceava</option> <br>
+            </select> <br>
+
+            <label for="adresa">Adresa</label>
+                <input type="text" name="adresa" required> <br>
+
+            <label for="codpostal">Cod Postal</label>
+                <input type="number" name="codpostal"> <br>
+
+            <label for="email_address">Email</label>
+                <input type="email" name="email_address"><br>
+            
+            <label for="comments">Comments</label>
+                <textarea name="comments" maxlength="500"></textarea> <br> <br>
+
+            <p>Attach CV</p>
+            <input type="file" id="myFile"> <br> <br>
+
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+            
+        </form>
+
+    </body>
+</html>

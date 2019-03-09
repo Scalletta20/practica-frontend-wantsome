@@ -1,0 +1,29 @@
+.formStyle{
+    max-width:400px;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+select{
+    display: inline;
+    border-radius: 5px;
+    border-bottom-color: #ff584f;
+}
+
+p{
+    display: inline;
+    background: blue;
+}
+
+input{
+    border-radius: 10px;
+    display: inline;
+    background-color: lightsalmon;
+}
+
+label{
+    height: 20px;
+}
