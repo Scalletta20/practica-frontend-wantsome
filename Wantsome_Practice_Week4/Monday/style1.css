@@ -1,0 +1,88 @@
+header{
+    background-color: purple;
+    height: 100px;
+     
+}
+
+#leftSidebar{
+    background-color: blue;
+    height: 60px;
+    flex-grow: 1;
+}
+
+#rightSidebar{
+    background-color: green;
+    height: 60px;
+    flex-grow: 1;
+}
+
+.content{
+    background-color: brown;
+    flex-grow: 2;
+}
+
+footer{
+    background-color: orange;
+    height: 60px;
+} 
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} 
+
+@media screen and (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
+}
+
+/* 
+.grid{
+    background: black;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 600px;
+    width: 600px;
+    grid-gap: 10px;
+
+}
+
+.white {
+    background-color: white;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.b{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+.c{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.d{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
+
+.g{
+    background-color: yellow;
+} */
