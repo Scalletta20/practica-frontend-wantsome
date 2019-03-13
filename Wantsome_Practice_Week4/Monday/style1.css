@@ -1,4 +1,4 @@
-header{
+/* header{
     background-color: purple;
     height: 100px;
      
@@ -37,9 +37,9 @@ footer{
     .main{
         flex-direction: column;
     }
-}
+} */
 
-/* 
+
 .grid{
     background: black;
     display: grid;
@@ -85,4 +85,4 @@ footer{
 
 .g{
     background-color: yellow;
-} */
+}

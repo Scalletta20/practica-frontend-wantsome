@@ -1,0 +1,45 @@
+body{
+    background-color: #3399ff;
+}
+
+.cap{
+    height: 70px;
+    background: rgb(32, 179, 19);
+}
+
+.foot{
+    height: 70px;
+    background: rgb(32, 179, 19);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(32, 179, 19, 0.3);
+    
+}
+#firstBlock{
+    height: 250px;
+    width: 250px;
+    left: 100px;
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;   
+    background-size: auto;
+}
+
+#secondBlock{
+    height: 250px;
+    width: 250px;
+    background-image: url("images2.jpg");
+    background-repeat: no-repeat;   
+    background-size: auto;
+}
+
+#thirdBlock{
+    height: 250px;
+    width: 250px;
+    background-image: url("images3.jpg");
+    background-repeat: no-repeat;   
+    background-size: auto;
+}
