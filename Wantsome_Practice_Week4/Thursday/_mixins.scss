@@ -1,0 +1,47 @@
+@mixin  abutton {
+    a{
+        background-color: blue;
+        color: white;
+        radius: 3px;
+        margin: 2px;
+        
+        &:hover{
+            color: red;
+        }
+
+        &:visited{
+            color: green;
+        }
+    }    
+}
+
+@include abutton();
+    .menu-button{
+        @include abutton();
+    }
+
+@mixin a-button($base, $hover, $link) {
+    a{
+        background-color: $base;
+        color: white;
+        radius: 3px;
+        margin: 2px;
+
+        &:hover{
+            color: $hover;
+        }
+
+        &:visited{
+            color: $link;
+        }
+    }
+}
+
+
+.menu-button{
+    @include a-button(blue, red, green);
+}
+
+.text-button{
+    @include a-button(yellow, black, grey);
+}

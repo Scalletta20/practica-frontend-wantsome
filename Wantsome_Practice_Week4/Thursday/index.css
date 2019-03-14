@@ -1,0 +1,94 @@
+body {
+  background-color: #3399ff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+.menu-button a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.menu-button a:hover {
+  color: red;
+}
+
+.menu-button a:visited {
+  color: green;
+}
+
+.menu-button a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.menu-button a:hover {
+  color: red;
+}
+
+.menu-button a:visited {
+  color: green;
+}
+
+.text-button a {
+  background-color: yellow;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.text-button a:hover {
+  color: black;
+}
+
+.text-button a:visited {
+  color: grey;
+}
+
+.message, .success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+/*# sourceMappingURL=index.css.map */
